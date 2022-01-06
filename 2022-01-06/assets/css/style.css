@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(to right, rgb(5, 196, 202), rgb(170, 170, 10));
+    font-family: 'The Nautigal', cursive;
+}
+
+div {
+    background-image: linear-gradient(to right, rgba(240, 231, 231, 0.733), rgb(0, 162, 255));
+    margin: auto;
+    width: 250px;
+    border: 3px solid blue;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: #0130ff;   
+    width: 100%;  
+    color: rgb(229, 255, 0);   
+    padding: 5px;   
+    margin: 10px 0px;
+}
+
+input[type=email], input[type=password] {   
+    width: 100%;   
+    margin: 8px 0px;  
+    padding: 10px 20px;   
+    display: inline-block;   
+    border: 2px solid rgb(255, 187, 1);   
+    box-sizing: border-box;
+}
