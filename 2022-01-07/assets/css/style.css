@@ -1,5 +1,6 @@
 body {
     padding: 50px;
+    background-image: linear-gradient(to top, rgb(180, 209, 52), rgb(16, 110, 44));
 }
 
 img {
