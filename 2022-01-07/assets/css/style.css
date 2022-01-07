@@ -1,0 +1,53 @@
+body {
+    padding: 50px;
+}
+
+img {
+    width: 250px;
+}
+/* lyginiai skaiciai */
+.image2 {
+    float: right;
+}
+
+.image4 {
+    float: right;
+}
+
+.image6 {
+    float: right;
+}
+/* nelyginiai skaiciai */
+.image1 {
+    float: left;
+}
+
+.image3 {
+    float: left;
+}
+
+.image5 {
+    float: left;
+}
+/* paragrafu spalvos */
+.color1 {
+    color: rgb(226, 47, 146);
+}
+.color2 {
+    color: rgb(231, 76, 245);
+}
+.color3 {
+    color: coral;
+}
+.color4 {
+    color: darkcyan;
+}
+.color4 {
+    color: darkmagenta;
+}
+.color5 {
+    color: green;
+}
+.color6 {
+    color: darkorange;
+}
