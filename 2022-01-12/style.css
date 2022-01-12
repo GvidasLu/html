@@ -1,0 +1,30 @@
+p {
+    box-sizing: content-box;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 250px;
+}
+
+.text1 {
+    margin-left: 200px;
+    
+}
+
+div {
+    margin-left: 200px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 250px;
+}
+
+hr {
+    margin-right: 25px;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
