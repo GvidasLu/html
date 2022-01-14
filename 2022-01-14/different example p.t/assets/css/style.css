@@ -1,0 +1,93 @@
+body {
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.box {
+  /* Norint gauti taisyklinga dydi reikia is 100% dalinti 4 dalis, kadangi mums reikia 4 colum, bet jei reiketu daugiau ar maziau tai visad dalinam is 100% ir is columu skaiciaus */
+  /* 100 / 4 = 25% */
+  width: 25%;
+  float: left;
+  padding: 50px;
+  max-width: 150px;
+  text-align: center;
+}
+
+.circle {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border: 3px solid lightcoral;
+    color: lightcoral;
+    font-weight: bold;
+    top: -12px;
+    left: -12px;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box img {
+    height: 150px;
+    width: 100%;
+    background: lightcoral;
+    border-radius: 4px;
+    padding: 15px;
+    max-width: 150px;
+}
+
+.img {
+    position: relative;
+
+}
+
+p, h2 {
+    text-align: center;
+}
+
+.box1 img {
+    background: rgb(70, 159, 201);
+}
+
+.box1 .circle {
+    border-color: rgb(70, 159, 201);
+    color: rgb(70, 159, 201);
+}
+
+.box2 img {
+    background: rgba(76, 84, 194, 0.979);
+}
+
+.box2 .circle {
+    border-color: rgba(76, 84, 194, 0.979);
+    color: rgba(76, 84, 194, 0.979);
+}
+
+.box3 img {
+    background: rgb(238, 47, 47);
+}
+
+.box3 .circle {
+    border-color: rgb(238, 47, 47);
+    color: rgb(238, 47, 47);
+}
+
+.box4 img {
+    background: rgb(151, 156, 158);
+}
+
+.box4 .circle {
+    border-color: rgb(151, 156, 158);
+    color: rgb(151, 156, 158);
+}
